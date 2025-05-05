@@ -1,0 +1,1 @@
+$(document).ready(function(){$("select").selectBoxIt({autoWidth:!1,showEffect:"slideDown",hideEffect:"slideUp"})}),$(document).ready(function(){$(".add").hide(),$("#add1").show(),$(".contact-add").change(function(){$(".add").hide(),$("#"+$(this).val()).show()})}),$(document).click(function(){$("*").removeClass("animated")}),$(document).ready(function(){$("select").focus()});

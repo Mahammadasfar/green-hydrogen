@@ -1,0 +1,22 @@
+﻿h1, h2, h3, h4, h5, h6, a, p, span {
+    word-spacing: 14px;
+}
+.we-are .right-content p {
+    padding-top: 15px;
+}
+.assets-right-content .assets-sec {
+    width:30%;
+}
+footer .wrap .right-col {
+    float: none;
+}
+footer .wrap .left-col {
+    float: none;
+    margin-bottom: 20px;
+}
+.slider-caption-right-sec .water {
+    width:375px;
+}
+.gw-power {
+   width:375px; 
+}

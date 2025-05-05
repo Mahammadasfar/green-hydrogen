@@ -1,0 +1,82 @@
+﻿.acc-root {
+    position:absolute;
+    top:120px;
+    left:20px;
+    z-index: 99999;
+    cursor: pointer;
+}
+/* Tables
+================================== */
+.rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+.rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%; 
+  padding: 0.8em 1.2em;
+  overflow: hidden; 
+  list-style: none;
+  border: solid 1px white;
+  background: fade(slategrey,20%);
+  
+}
+.selected {
+        background-color : #75a515;
+        border: 1px solid #13bd10;   
+}
+
+/* Table column sizing
+================================== */
+.rtable--2cols > .rtable-cell  { width: 50%; text-align: center;cursor:pointer;}
+.rtable--3cols > .rtable-cell  { width: 33.33%;text-align: center; cursor:pointer;}
+.rtable--4cols > .rtable-cell  { width: 25%;text-align: center; cursor:pointer;}
+.rtable--5cols > .rtable-cell  { width: 20%;text-align: center;cursor:pointer; }
+.rtable--6cols > .rtable-cell  { width: 16.6%; text-align: center;cursor:pointer;}
+.rtable-cell {
+    background-color: #9acd32;
+}
+.acc-button-list {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    z-index: 9999;
+    width: 20%;
+    background-color: yellowgreen;
+}
+.acc-list-header {
+   height: 26px;
+    background-color: green;
+    text-align: center;
+    vertical-align: middle;
+       font-size: 18px;
+    color: #ffffff;
+}
+.acc-root-content {
+    cursor:pointer;
+}
+.sticky {
+  position: fixed;
+  top: 120px;
+  
+}
+.acc-zoom-plus {
+    width:16px !important;
+}
+.acc-zoom-minus {
+    width:16px!important;
+}
+.acc-zoom-bar {
+    height: 10px;
+}
+.acc-zoom-buttons {
+    width: 10px;
+    margin-top: 10%;
+    float: right;
+}
+.hide-icon {
+   visibility : hidden;
+}

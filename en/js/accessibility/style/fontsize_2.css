@@ -1,0 +1,319 @@
+﻿p {
+    font-size: 20px!important;
+}
+a {
+    font-size: 20px!important;
+}
+span {
+     font-size: 20px!important;
+}
+header .right-col {
+    width: 62%;
+}
+.navbar.fixed-header .wrap {
+    max-width: 84.3em;
+}
+header .wrap {
+    max-width: 78.3em;
+}
+.body-head h3 {
+    font-size: 24px;
+}
+.body-head h2 {
+    font-size: 54px;
+}
+.we-are .right-content p {
+    padding-top: 0;
+}
+.our-assets-inner .globe_img_cnt h2 {
+    font-size: 34px;
+}
+.news-desc .date h2 {
+    font-size: 64px;
+}
+.careers-growth h3 {
+    font-size: 29px;
+}
+.careers-growth h2 {
+    font-size: 54px;
+}
+.quick-links .links .wrap .col h3 {
+    font-size: 20px;
+}
+.quick-links .links .wrap .col li a {
+    font-size: 18px !important;
+	line-height: 22px !important;
+}
+.form-control {
+    font-size: 18px;
+}
+footer .wrap .left-col ul li {
+    font-size: 18px;
+}
+footer .wrap .left-col ul li a {
+    font-size: 18px !important;
+}
+.navbar .wrap nav ul li a:hover {
+    background: url(../images/megamenu-arrow.png) center 49px no-repeat!important;
+}
+.slider-caption-right-sec .water {
+    width: 380px;
+}
+.gw-power {
+    width: 380px;
+}
+header .right-col {
+    width: 65%;
+}
+.home_slider_section .slider h3.caption {
+    font-size: 54px;
+}
+.assets-right-content .assets-sec h2 {
+    font-size: 64px;
+}
+.assets-right-content .assets-sec h2 sub {
+    font-size: 22px;
+}
+.right-content {
+    padding: 0 30px;
+}
+.search-wrap input.search-box {
+    font-size: 18px;
+}
+.header_wrap:after {
+    width: 74.4%;
+}
+.header_wrap > .wrap:after { 
+    width: 16.2%;
+}
+.dates .selected {
+    font-size: 22px !important;
+}
+header .left-col {
+    right: -30px;
+}
+.gw-power h2 {
+    font-size: 64px;
+}
+.slider-caption-right-sec .water {
+    top: 55.6%;
+}
+.globel-img {
+    top: 0;
+}
+.mem-details h6 {
+    font-size: 22px;
+}
+.our-leaders .mem-status-desc p {
+    line-height: 24px;
+}
+.cmp_vid_heading h4 {
+    font-size: 28px;
+}
+.brch_link h5 {
+    font-size: 28px;
+}
+.breadcrumbs-sec ul li {
+    font-size: 18px;
+}
+.mv-desc h3 {
+    font-size: 24px;
+}
+.mv-desc h2 {
+    font-size: 54px;
+}
+.value-right-desc li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.value-desc-text {
+    padding-top: 0;
+}
+.board-sec p {
+    font-size: 18px !important;
+}
+.mem-status-desc h6 {
+    font-size: 20px;
+}
+.corporate-desc-right p {
+    font-size: 27px !important;
+}
+.commitee-head h3 {
+    font-size: 22px;
+}
+.principle-count-left p {
+    font-size: 64px !important;
+}
+.principle-count-right h3 {
+    font-size: 27px;
+}
+.mem-details p {
+    font-size: 18px !important;
+}
+.filter-group .selectboxit-container span, .filter-group .selectboxit-container .selectboxit-options a {
+    font-size: 17px !important;
+}
+.t-header .tabs li span {
+    font-size: 16px !important;
+}
+.btn-filterbox span {
+    font-size: 14px !important;
+}
+.project-header h3 {
+    font-size: 26px;
+}
+.view-all-pro {
+    font-size: 18px !important;
+}
+.filter-control {
+    font-size: 17px;
+}
+.t-header .tabs li {
+    padding: 24px 0 23px 0;
+}
+.col-map {
+    width: 60%;
+}
+.col-filter {
+    width: 40%;
+}
+.content-wrpaer h2 {
+    font-size: 20px;
+	min-height: 45px;
+}
+.news-header h3 {
+    font-size: 21px;
+}
+.news-content a {
+    font-size: 16px;
+	    line-height: 1.4em;
+}
+.count-number {
+    font-size: 49px !important;
+}
+.count-type {
+    font-size: 17px;
+}
+.t-header .tabs li:last-child {
+    padding: 40px 0;
+}
+.col-checkbox {
+    padding-left: 0;
+}
+.news-list .btn-link {
+    font-size: 16px !important;
+    line-height: 26px !important;
+    background-position: 105px 4px !important;
+}
+.header-withunderline h3 {
+    font-size: 24px;
+}
+.accordion-wraper .accordion {
+    font-size: 18px;
+}
+.header-withunderline h3 {
+    font-size: 26px;
+}
+.article-widgets-body p {
+    font-size: 18px !important;
+}
+.header-withunderline h3 {
+    font-size: 28px;
+}
+.lw-lable {
+    font-size: 18px;
+}
+.lw-value {
+    font-size: 16px;
+}
+.content_hotspot_heading {
+    font-size: 21px;
+}
+.content_hotspot_content_heading {
+    font-size: 18px;
+}
+.content-hotspot-widget .content-hotspot-widget-wrap p {
+    font-size: 17px;
+}
+.content-hotspot-widget .content-hotspot-widget-wrap a {
+    font-size: 18px;
+}
+.impt_cnt .impt-heading h5 {
+    font-size: 29px;
+    margin: 0px 0 0 10px;
+}
+.impt_cnt ul li {
+    font-size: 20px;
+}
+.mCustomScrollbar .annual_list li .content h4 {
+    font-size: 19px;
+}
+.col-left h2 {
+    font-size: 29px;
+}
+.assets-right-content .assets-sec {
+    font-size: 20px;
+}
+.our-assets-inner .globe_img_cnt h2 {
+    font-size: 36px;
+}
+.press-release-heading h4 {
+    font-size: 24px;
+}
+.IR-pr-rl-date h5 {
+    font-size: 64px;
+}
+.featured-projects .grid-item {
+    height: 380px !important;
+}
+.featured-projects ul.grid {
+    margin-bottom: 30px;
+}
+.featured-projects .grid-item {
+    height: 400px !important;
+    position: unset !important;
+}
+.assets-right-content .assets-sec span {
+    font-size: 64px !important;
+}
+.geographic-footprint .globel-img {
+    top: 46%;
+}
+.IR-content-wrap .intro-cnt h3 {
+    font-size: 22px;
+}
+.webcast-list .date h6 {
+    font-size: 18px;
+}
+.webcast-list .date h2 {
+    font-size: 64px;
+}
+
+
+@media screen and (max-width: 1280px){
+	.gw-power {
+		bottom: 43.5%;
+	}
+	.navbar .wrap nav ul li a:hover {
+		background: url(../images/megamenu-arrow.png) center 46px no-repeat!important;
+	}
+	header .left-col {
+		right: 0;
+	}
+	.header_wrap > .wrap:after {
+		width: 1.5%;
+	}
+	.navbar .wrap nav ul li a {
+		padding: 12px 14px 18px 14px;
+	}
+	.header_wrap:after {
+    width: 86.4%;
+	}
+	.search-wrap {
+		width: 285px;
+	}
+	.fixed-header .sticky-header-logo {
+
+    margin: 0 54px 0 20px;
+}
+}

@@ -1,0 +1,1 @@
+﻿$(document).ready(function(){$("#form_signup").submit(function(t){t.preventDefault();$(this).serializeArray();$.ajax({type:"POST",timeout:2e4,url:"/base/IContactHandler/AddIContact",data:$(this).serializeArray(),success:function(t){"true"==t&&$(":input","#form_signup").not(":button, :submit, :reset, :hidden").val("")},error:function(t,e){}})})});
