@@ -1,0 +1,118 @@
+
+.strategy .container .accordion h3.current {
+    background: #fbb514 url(../images/minus.png) no-repeat;
+    background-position: 96% center;
+        border-bottom: 1px solid #fff;
+}
+.strategy .container .accordion .pane {
+    background-color: #fbb514;
+     padding: 30px 0;
+}
+    .strategy .container .accordion .pane p {
+        border-top: none;
+            width: 50%;
+           float: left;
+           padding: 10px 30px;
+           
+    }
+    .strategy .container .accordion .pane .content p {
+        border-top: none;
+            width: 100%;
+           float: none;
+           padding: 20px 30px;
+           
+    }
+    .three_col_structure {
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+
+     .three_col_structure .col_1 {
+    width: 33%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+     .three_col_structure .col_1 p {
+    width: 100% !important;
+    float: none !important;
+    padding: 0 30px !important;
+}
+     .three_col_structure .col_1 img {
+    max-width: 100%;
+}
+.three_col_structure .col_1:last-child p {
+    padding: 0 30px 0 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .strategy .container {
+        max-width: 61em;
+    }
+    .strategy .container .accordion .pane p {
+    padding: 15px 0 0 30px;
+    float: left;
+    width: 54%;
+}
+}
+
+@media screen and (max-width: 770px) {
+    .strategy .container {
+        max-width: 45em;
+    }
+    .strategy .container .accordion .pane {
+    padding: 24px 0 55px 0;
+}
+    .strategy .container .accordion .pane img {
+    max-width: 100%;
+    width: 32%;
+    padding-top: 20px;
+}
+    .strategy .container .accordion .pane p {
+    font-size: 12px;
+    float: left;
+    width: 60%;
+    padding: 15px 0 0 20px;
+}
+}
+
+@media screen and (max-width: 650px) {
+    .strategy .container {
+        max-width: 90%;
+    }
+    .strategy .page-title {
+        margin-bottom: 25px;
+            padding-top: 20px;
+
+    }
+    .strategy .container .accordion .pane {
+    padding: 24px 0 25px 0;
+}
+    .strategy .container .accordion .pane img {
+    max-width: 100%;
+    width: inherit;
+    padding-top: 5px;
+}
+        .strategy .container .accordion .pane p {
+    font-size: 14px;
+    float: none;
+    width: 90%;
+    padding: 15px 0 0 5px;
+}
+}

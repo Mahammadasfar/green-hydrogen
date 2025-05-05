@@ -1,0 +1,298 @@
+﻿h1, h2, h3, h4, h5, h6, a, p, span, li {
+    word-spacing: 10px;
+}
+.col-lw-value div {
+  word-spacing: 10px;  
+}
+.form-group label {
+    word-spacing:10px;
+}
+footer .wrap .right-col {
+    float: none;
+}
+footer .wrap .left-col {
+    float: none;
+    margin-bottom: 20px;
+}
+.slider-caption-right-sec .water {
+    width:380px;
+}
+.gw-power {
+   width:380px; 
+}
+.assets-right-content .assets-sec {
+    width:30%;
+}
+.mv-desc {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    text-align: center;
+    width: 50%;
+}
+.mem-status-desc a {
+   background-position: 130px 4px;
+}
+.commitee-head {
+    height:175px;
+}
+.corporate-desc-right {
+    padding: 35px 40px 35px 40px;
+}
+.energy-list .btn-link {
+    background-position: 140px 5px;
+}
+.coal-about-list .btn-link {
+    background-position: 145px 6px;
+}
+.btn-link {
+    background-position: 140px 4px !important;
+}
+.working-people-inner .left-desc {
+    padding: 5px 20px 0 20px;
+}
+.left-desc p {
+    margin-top:7px;
+}
+.committee-desc a {
+   background-position: 130px 4px;
+}
+.content-wrpaer p {
+        overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.assets-right-content .assets-sec {
+    width:31%;
+}
+.IR-pr-rl-cont p {
+  min-height: 170px;
+}
+.IR-pr-rl-link a {
+    background-position: 145px 7px;
+}
+.analyst ul li .bond-list .ppt-icon {
+    float: none;
+}
+.analyst ul li .bond-list {
+    text-align:center;
+}
+    .analyst ul li .bond-list h3 {
+        margin-left:10px;
+    }
+    .lang-ar .right-content p {
+    line-height:22px;
+}
+.lang-ar .mem-status-desc p {
+    line-height:25px;
+}
+.event-tabs ul.tab li {
+    width:41%;
+    padding:10px;
+}
+.col-right {
+    width:72%;
+}
+.col-left {
+    padding-right: 10px;
+}
+
+.lang-ar .mem-status-desc a {
+    background-position: 120px 10px;
+}
+.lang-ar .committee-desc a {
+    background-position: 130px 10px;
+}
+.lang-ar .energy-list .btn-link {
+    background-position: 14px 12px !important;
+}
+.lang-ar .coal-about-list .btn-link {
+    background-position: 10px 13px !important;
+}
+.lang-ar .hsse_img {
+   padding-top: 70px;
+}
+.lang-ar .hsse-management-tab .imp-std .imp-tab a:nth-child(3):hover:after {
+    border-top: 47px solid transparent;
+    border-right: 23px solid #b93631;
+    border-bottom: 47px solid transparent;
+}
+.lang-ar .hsse-management-tab .imp-std .imp-tab a:nth-child(11):hover:after {
+    border-top: 47px solid transparent;
+    border-right: 23px solid #b93631;
+    border-bottom: 47px solid transparent;
+}
+.lang-ar .corporate-social-responsibility-tab .imp-std .imp-tab a:nth-child(3) {
+    padding-top: 2px;
+}
+.lang-ar .working-people-inner .left-desc {
+    padding: 10px 20px 10px 20px;
+}
+.lang-ar .right-img {
+    padding-top:15px;
+}
+.lang-ar .rpt-cnt a {
+   padding: 0px 4px;
+}
+.lang-ar .col-right {
+    width: 70%;
+}
+.countryname {
+    padding: 7px 5px 15px 7px;
+}
+.lang-ar .content-wrpaer h2 {
+    min-height:49px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+@media (max-width:1024px) {
+    .lang-ar .mv-desc h2 {
+    margin: 0 0 5px 0;
+}
+    .lang-ar .mv-desc {
+        top: -6%;
+    }
+    .lang-ar .committee-desc a {
+    background-position: 100px 10px;
+}
+    .lang-ar .mem-status-desc a {
+    background-position: 200px 10px;
+}
+    .acc-button-list {
+        width:25%;
+    }
+    .we-are .left-img img {
+        padding-top: 30px;
+    }
+    .home_slider_section .slider p {
+        font-size:15px;
+    }
+    .inner-slider-caption {
+        top:30%;
+    }
+    .mv-desc {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    text-align: center;
+    width: 68%;
+}
+    .corporate-desc-right {
+    padding: 20px;
+}
+    .hsse_img img {
+        margin-top:20px;
+    }
+    .right-img img {
+        margin-top:15px;
+    }
+   
+}
+
+@media (max-width:768px) {
+    .col-right {
+    width: 100%;
+}
+    .lang-ar .mem-status-desc a {
+    background-position: 345px 10px;
+}
+    .lang-ar .committee-desc a {
+    background-position: 10px 10px;
+}
+
+    .acc-button-list {
+        width:35%;
+    }
+    .mv-desc {
+    position: absolute;
+    top: -9%;
+    left: 3%;
+    text-align: center;
+    width: 93%;
+}
+    .home_slider_section .slider p {
+        font-size:16px;
+    }
+    .we-are .left-img img {
+        padding-top: 0px;
+    }   
+    .slider-caption-right-sec .water {
+    width: 50%;
+}
+    .acc-root-icon {
+        margin-top:70px;
+    }
+    .sticky {
+        top:0;
+    }
+    .commitee-head {
+    height: 220px;
+}
+    .hsse_img img {
+        margin-top:0px;
+    }
+    .right-img img {
+        margin-top:0px;
+    }
+    .webcast-list .webcast-list-links {
+        width: 30%;
+    }
+    .webcast-list .webcast-list-desc {
+        width: 50%;
+    }
+}
+
+@media (max-width:640px) {
+    .IR-press-release-lists a {
+            padding: 10px 5px;
+    }
+    .our-assets .our-assets-inner .globel-img {
+        top: 12%;
+    }
+     .lang-ar .mem-status-desc a {
+    background-position: 155px 10px;
+}
+    .webcast-list .webcast-list-links {
+    width: 37%;
+}
+    .mv-desc {
+    position: absolute;
+    top: -9%;
+    left: 5%;
+    text-align: center;
+    width: 88%;
+}
+    .assets-right-content .assets-sec {
+        width: 47%;
+    } 
+    board-mem-info .mem-details h6 {
+    min-height: 20px;
+}
+    .board-mem-info .mem-details p {
+    margin-top: 5px;
+} 
+    .slider-caption-right-sec .water {
+    width: 100%;
+}
+    .acc-button-list {
+    width: 65%;
+}
+     .webcast-list .webcast-list-links h5.webcast-icon {
+    background-position: 35px top;
+}
+    .webcast-list .webcast-list-links {
+        text-align:center;
+        }
+        .webcast-list .webcast-list-links h5.transcript-icon {
+            background-position: 35px 0px;
+        }
+    .go-to-newsroom a {
+        padding: 10px 6px;
+    }
+}

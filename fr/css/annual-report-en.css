@@ -1,0 +1,72 @@
+.AnnualReport {
+    background:#eee;
+    display:inline-block;
+    text-align:center;
+    width:100%;
+}
+    .AnnualReport .main-report h3 {
+        color: #015b96;
+        font-weight: bold;
+        letter-spacing:3px;
+        text-transform:uppercase;
+        font-size:25px;
+    }
+.mCustomScrollbar {
+    overflow: auto;
+}
+.mCustomScrollbar .annual_list {
+    padding:0;
+    margin:0;
+    background:#eee;
+        text-align: left;
+    white-space: nowrap;
+}
+
+    .mCustomScrollbar .annual_list li {
+        list-style-type:none;
+        width:33.33%;
+        display:inline-block;
+        padding:15px;
+        cursor:pointer;
+    }
+        .mCustomScrollbar .annual_list li.active {
+            background:#ddd;
+        }
+        .mCustomScrollbar .annual_list li img {
+            float:left;
+            width:30%;
+        }
+        .mCustomScrollbar .annual_list li .content {
+            float:right;
+            width:70%;
+            padding:10px;
+            white-space:initial;
+        }
+            .mCustomScrollbar .annual_list li .content h4 {
+                font-size:15px;
+                margin:0px 0 0 0;
+                color:#000;
+            }
+            .mCustomScrollbar .annual_list li .content p {
+                font-size:14px;
+                margin:10px 0;
+                color:#000;
+            }
+
+
+.mCustomScrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #f1f1f1;
+}
+.mCustomScrollbar::-webkit-scrollbar
+{
+	height: 8px;
+	background-color: #f1f1f1;
+}
+
+.mCustomScrollbar::-webkit-scrollbar-thumb
+{
+	background-color: #922d25;
+    border-radius:10px;
+}

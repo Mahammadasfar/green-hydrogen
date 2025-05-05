@@ -1,0 +1,1 @@
+var bx_slider=null;$(document).ready(function(){(bx_slider=$(".media_contact_slider").bxSlider({controls:!0,pager:!1,hideControlOnEnd:!0,infiniteLoop:!1})).reloadSlider()});

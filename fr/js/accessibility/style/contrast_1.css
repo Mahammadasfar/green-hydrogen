@@ -1,0 +1,95 @@
+﻿
+h1, h2, h3, h4, h5, h6, a, p, span {
+    color : white!important;
+}
+body {
+    background:#000000 !important;
+}
+.fixed-header, .fixed-header .wrap nav {
+    background:#000000 !important;
+}
+.news {
+  background:#000000 !important;  
+}
+.go-to-newsroom {
+   background:#000000 !important;   
+}
+.quick-links {
+   background:#000000 !important;   
+}
+.grey-bg {
+   background:#000000 !important;  
+}
+.dates {
+   background:#000000 !important;  
+}
+.projects {
+   background:#000000 !important; 
+}
+.featured-projects {
+   background:#000000 !important; 
+}
+.countryname {
+   background:#000000 !important; 
+}
+.counter {
+   background:#000000 !important; 
+}
+.body-wraper {
+    background:#000000 !important; 
+}
+.results-finance table {
+    background:#000000 !important;
+}
+.webcast-list .webcast-list-desc p {
+    color:#394049 !important;
+}
+.disclaimer-modal-content {
+   background:#000000 !important; 
+}
+ul.tab li::after {
+    border-width: 1.69em;
+    border-right-color: #000;
+    border-top-color: #000;
+}
+ul.tab li {
+    background:#000000 !important; 
+}
+.webcast-list .webcast-list-links h5 a {
+    color:#015b96 !important;
+}
+.calendar-date-holder .calendar-dates .date a {
+    background:#000000 !important;
+}
+#Widget_projectstatistics {
+   box-shadow: 0px 0px 20px 0px #000 !important;
+}
+#prev {
+    background: #000 url(../images/arrow-up.png);
+}
+#next {
+    background: #000 url(../images/arrow-dwn.png);
+}
+.col-left ul li a.active {
+    color: #922d25 !important;
+}
+img {
+    -webkit-filter: grayscale(1) invert(1);
+filter: grayscale(1) invert(1);
+}
+.careers-growth {
+     -webkit-filter: grayscale(1) invert(1);
+filter: grayscale(1) invert(1);
+}
+.rtable-cell {
+    background-color: #000;
+}
+.acc-text {
+    color:#fff;
+}
+.acc-dot.active {
+    background: #fff;
+}
+.acc-reset-button {
+    background:#000;
+}
