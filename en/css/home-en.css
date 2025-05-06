@@ -1392,7 +1392,8 @@
         width: 65%
     }
     section.quick-links {
-        max-width: 100%!important
+        max-width: 100%!important;
+        display: none;
     }
     .press-list .bx-wrapper img {
         width: 50%
