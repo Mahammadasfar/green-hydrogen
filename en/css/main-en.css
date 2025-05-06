@@ -9204,7 +9204,7 @@ flex-direction: column;
 
     .mobile_menu_search {
         background: #4B545D;
-        padding: 15px;
+        /* padding: 15px; */
         text-align: left;
         position: relative;
         left: 0;
@@ -14877,7 +14877,7 @@ section.user-profile {
 
     .header_wrap:after {
         content: '';
-        width: 72%;
+        width: 77%;
         border-bottom: solid 1px #ffffff42;
         position: absolute;
         left: 0;
@@ -17509,11 +17509,11 @@ header .left-col .logo {
 }
 
 .header_wrap>.wrap:after {
-    width: 10.5%;
+    width: 14.5%;
 }
 
 .header_wrap:after {
-    width: 79%;
+    width: 77%;
 }
 
 .inner-slider-caption {}

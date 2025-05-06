@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".tab-nav ul.tabs").tabs(".tab-content div.panes > div")});

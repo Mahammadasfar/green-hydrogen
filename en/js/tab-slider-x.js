@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".tabwrap #tabs ul.nav").tabs(".tabwrap #tabs > div",{effect:"fade",rotate:!0}).slideshow({clickable:!1})});

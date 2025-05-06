@@ -1,8 +1,0 @@
-﻿<!--@font-face { font-family: 'Faricy New'; src: url('../css/fonts/faricynewrg-webfont.eot'); src: url('../css/fonts/faricynewrg-webfont.eot?#iefix') format('embedded-opentype'), /*url('../css/fonts/faricynewrg-webfont.woff') format('woff'),*/ url('../css/fonts/faricynewrg-webfont.ttf') format('truetype'), url('../css/fonts/faricynewrg-webfont.svg#faricynewrg-webfont') format('svg'); font-weight: normal; font-style: normal; }
-
- .timeline-Tweet-text{ font-size:10px !important;}
-.timeline.twitter-timeline p, .root.timeline.twitter-timeline a, .root.timeline.twitter-timeline ol, .root.timeline.twitter-timeline ul, .timeline.twitter-timeline li { font-family: Faricy New, Helvetica, Arial, sans-serif;  font-size:10px; line-height:13px; color:#fff !important;}
-.twitter-timeline .tweet { padding-top:0px !important; padding-bottom:100px !important; }
-.twitter-timeline .inline-media, .MediaCard-media, .timeline-Tweet-retweetCredit, .timeline-Tweet-actions {display:none !important;}
-p a, .TweetAuthor a, p a:hover, .TweetAuthor a:hover{ color:#fff !important; background-color:none !important;}
-.timeline-Tweet:hover{ background-color:none !important;}

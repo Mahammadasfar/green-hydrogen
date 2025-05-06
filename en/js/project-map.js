@@ -1,1 +1,0 @@
-jQuery(function(a){var e=document.createElement("script");e.src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCfroJRZ8GLqF8PVwnnJzrx6CQ8sAsag6I&callback=initialize",document.body.appendChild(e)});

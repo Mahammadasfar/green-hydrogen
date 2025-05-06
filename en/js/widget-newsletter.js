@@ -1,1 +1,0 @@
-﻿$(document).ready(function(){$("#form_newsletter").submit(function(t){t.preventDefault();$(this).serializeArray();$.ajax({type:"POST",timeout:2e4,url:"/base/IContactHandler/AddIContact",data:$(this).serializeArray(),success:function(t){"true"==t&&$(":input","#form_newsletter").not(":button, :submit, :reset, :hidden").val("")},error:function(t,e){}})})});

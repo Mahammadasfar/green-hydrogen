@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".video").click(function(){return window.parent.$.fancybox({padding:0,autoScale:!1,width:640,height:385,href:this.href.replace(new RegExp("watch\\?v=","i"),"v/"),type:"swf",swf:{wmode:"transparent",allowfullscreen:"true"}}),!1}),$("#youtube_thumbmail").css("visibility","hidden"),$("#youtube_thumbmail").youtubeCoverPhoto()});
