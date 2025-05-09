@@ -7733,12 +7733,14 @@ tr.dwld-sec-row td {
     .time-line-content {
         width: 77%;
     }
-.hsse_mng_img {
-    
-display: flex;
-    
-flex-direction: column;
-}
+
+    .hsse_mng_img {
+
+        display: flex;
+
+        flex-direction: column;
+    }
+
     .hsse_img {
         width: 100%;
 
@@ -8976,9 +8978,11 @@ flex-direction: column;
     .time-line-content {
         width: 75%;
     }
+
     .company-info .box h6 {
         font-size: 1.5rem !important;
     }
+
     .company-info .box span {
         font-size: 0.875rem;
     }
@@ -17532,6 +17536,14 @@ header .left-col .logo {
 
 }
 
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
 
 
 
@@ -17615,7 +17627,7 @@ header .left-col .logo {
 
 
 .enquireies {
-    background-color: #f6f7f7;
+    background-color: rgba(246, 247, 247, 1);
     padding: 3rem 0;
 }
 
@@ -17628,6 +17640,10 @@ header .left-col .logo {
 
 .enquireies .box {
     flex-grow: 1;
+}
+
+.enquireies .box a {
+    font-weight: 700;
 }
 
 .enquireies .enquireies-wrap .enquiry-content h6 {
@@ -17662,7 +17678,8 @@ header .left-col .logo {
     color: #015b97;
     font-size: 1.25rem;
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    letter-spacing: 3px;
 }
 
 
@@ -17775,13 +17792,6 @@ header .left-col .logo {
 }
 
 
-
-
-
-
-
-
-
 section.the-future.section-spacer-sm.why-hydrogen {
     background-color: #fdfdfd;
     margin: 3rem 0 1rem 0;
@@ -17789,4 +17799,222 @@ section.the-future.section-spacer-sm.why-hydrogen {
 
 .company-data {
     flex-grow: 1;
+}
+
+
+  
+
+.who-are-we-content .stats-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(../images/who-are-we-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    gap: 30px;
+    margin: 2rem 0;
+}
+
+.who-are-we-content .stat-item {
+    position: relative;
+    text-align: center;
+    color: #FADF70;
+    flex-grow: 1;
+    line-height: 1.25;
+}
+
+.who-are-we-content .stat-item h2 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.who-are-we-content .stat-item p {
+    font-size: 1rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+.who-are-we-content .stat-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.why-hydrogen .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2%;
+    margin: 2rem 0;
+}
+
+.why-hydrogen .card {
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.why-hydrogen .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.why-hydrogen .card-content {
+    padding: 2rem;
+}
+
+.why-hydrogen .card-content h3 {
+    color: #015b97;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+
+
+.project-section .country-section {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.project-section .country-section:last-child {
+    border-bottom: none;
+}
+
+.project-section .country-image {
+    flex: 0 0 12%;
+}
+
+.project-section .country-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.project-section .country-content {
+    flex: 0 0 86%;
+}
+
+.project-section .country-content h3 {
+    color: #015b97;
+    font-size: 1.25rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-section .country-content p {
+    margin-top: 0.8rem;
+    font-size: 0.875rem;
+}
+
+.project-section .country-section .country-flag {
+    height: 24px;
+    width: 24px;
+}
+
+.project-section .country-content a {
+    color: #015B96;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1024px) {
+    .project-section .country-image {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1080px) {
+    .project-section .country-image {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .who-are-we-content .stats-section {
+        gap: 20px;
+    }
+
+    .who-are-we-content .stat-item p {
+        font-size: 14px;
+    }
+
+    .who-are-we-content .stat-item h2 {
+        font-size: 3rem;
+    }
+
+    .why-hydrogen .card {
+        flex: 0 0 100%;
+        margin: 3rem 0;
+    }
+
+
+    .why-hydrogen .card-container {
+        margin-top: 0;
+    }
+
+    .project-section .country-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-section .country-image,
+    .country-content {
+        /* flex: 0 0 100%; */
+        width: 100%;
+    }
+
+    .project-section .country-image {
+        margin-bottom: 1rem;
+    }
+
+    .project-section .country-content h3 {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .enquireies .enquiry-title h6 {
+        font-size: 1.1rem;
+    }
+
+}
+@media (max-width: 480px) {
+    .who-are-we-content .stats-section {
+        flex-direction: column;
+    }
+
+    .who-are-we-content .stat-item {
+        padding: 10px 0;
+    }
+
+    .who-are-we-content .stat-item:not(:last-child)::after {
+        display: none;
+       
+    }
 }
