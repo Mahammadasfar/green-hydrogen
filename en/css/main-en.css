@@ -17509,15 +17509,15 @@ section.user-profile {
 }
 
 header .left-col .logo {
-    width: 140px;
+    /* width: 140px; */
 }
 
 .header_wrap>.wrap:after {
-    width: 14.5%;
+    /* width: 14.5%; */
 }
 
 .header_wrap:after {
-    width: 77%;
+    /* width: 77%; */
 }
 
 .inner-slider-caption {}
