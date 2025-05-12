@@ -23,6 +23,8 @@ $(window).resize(function () {
         n = e(".mobile-sub-menu_search").parent();
     e(".mobile-sub-menu_search").parent().find("div.mobile-sub-menu_search").remove(), n.find("li.mobile_menu_search").html(o.children())
 }), $(window).load(function () {
+
+    /*
     $(".members-slide").bxSlider({
         controls: !0,
         pager: !1,
@@ -69,7 +71,7 @@ $(window).resize(function () {
                 scrollTop: $(o).offset().top - "60"
             }, 800, function () { })
         }
-    })
+    })*/
 }), $(document).ready(function () {
     }), $(document).ready(function () {
     
@@ -143,7 +145,7 @@ $(window).resize(function () {
         }))
     }
 }), $(window).scroll(function () {
-    $(window).scrollTop() >= 190 ? $(".navbar").addClass("fixed-header") : $(".navbar").removeClass("fixed-header")
+    $(window).scrollTop() > 200 ? $(".navbar, .head-tickker").addClass("fixed-header") : $(".navbar, .head-tickker").removeClass("fixed-header")
 });
 
 
@@ -349,23 +351,23 @@ $(".board-sec a").click(function () {
             
         }).scroll();
 
-        $(window).scroll(function () {
-            var scroll1 = $(window).scrollTop() + 230;
-            var scroll2 = $(window).scrollTop();
-            var scroll3 = $(window).scrollTop();
-            var left_scroll = $('#bank').offset().top;
-            var right_scroll = $('#ipo_timeline').offset().top - 160;
-            var right_scroll2 = $('#key_doc').offset().top - 160;
-            if (scroll1 >= left_scroll) {
-                $('li.active').next('li').trigger('click');
-            }
-            if (scroll2 <= right_scroll) {
-                $('li.active').prev('li').trigger('click');
-            }
-            if (scroll3 <= right_scroll2) {
-                $('li.active').prev('li').trigger('click');
-            }
-        });
+        // $(window).scroll(function () {
+        //     var scroll1 = $(window).scrollTop() + 230;
+        //     var scroll2 = $(window).scrollTop();
+        //     var scroll3 = $(window).scrollTop();
+        //     var left_scroll = $('#bank').offset().top;
+        //     var right_scroll = $('#ipo_timeline').offset().top - 160;
+        //     var right_scroll2 = $('#key_doc').offset().top - 160;
+        //     if (scroll1 >= left_scroll) {
+        //         $('li.active').next('li').trigger('click');
+        //     }
+        //     if (scroll2 <= right_scroll) {
+        //         $('li.active').prev('li').trigger('click');
+        //     }
+        //     if (scroll3 <= right_scroll2) {
+        //         $('li.active').prev('li').trigger('click');
+        //     }
+        // });
 
         $('.next').click(function (e) {
             e.preventDefault();

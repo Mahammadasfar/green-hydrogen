@@ -1,1 +1,0 @@
-﻿$(document).ready(function(){$(".inside_accordian").find("a").click(function(t){t.preventDefault(),t.stopPropagation(),$(".annual_report_pdf").first().attr("src",$(this).attr("href")),$(".col-left").find("h3").html($(this).attr("flipbook-title"))})});
