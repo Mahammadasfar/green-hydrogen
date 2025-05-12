@@ -15841,7 +15841,7 @@ content: '';
     color: #015b97;
     font-size: 1.2rem;
     margin-bottom: 15px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 1px;
     margin-top: 0;
 }
