@@ -16088,9 +16088,16 @@ header .right-col {
     }
 }
 
-/* @media screen and (max-width: 900px) {
-    header .header_wrap {
-        background: #EAEBEC !important;
-    }
-} */
 
+
+
+@media screen and (max-width: 900px) {
+    header .left-col {
+        background: #EAEBEC ;
+        top: 0;
+    }
+
+    .fixed-header .left-col {
+        background-color: #ffffff;
+    }
+}
