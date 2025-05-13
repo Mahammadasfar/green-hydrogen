@@ -7631,7 +7631,8 @@ width: 100%;
     }
     .navbar .sticky-header-logo {
     display: block;
-    padding: 3% 3% 0 0%;
+    /* padding: 3% 3% 0 0%; */
+    padding: 2%;
     float: right;
 }
     .fixed-header .sticky-header-logo {
