@@ -15986,6 +15986,17 @@ content: '';
     text-align: center;
 }
 
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-5{
+    margin: 5rem 0;
+}
+
+
+
 @media screen and (max-width:1024px) {
     .project-section .country-image {
         margin-bottom: 1rem;
